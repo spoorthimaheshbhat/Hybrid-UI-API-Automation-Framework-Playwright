@@ -1,2 +1,17 @@
-# Hybrid-UI-API-Automation-Framework-Playwright
-Hybrid UI and API Automation Framework Using Playwright with Python 
+# Hybrid UI & API Automation Framework
+
+## Tech Stack
+- Python
+- Playwright
+- Pytest
+- Requests
+
+## Framework Features
+- UI Automation
+- API Automation
+- Page Object Model
+- Pytest Framework
+
+## Project Structure
+
+## How to Run Tests
