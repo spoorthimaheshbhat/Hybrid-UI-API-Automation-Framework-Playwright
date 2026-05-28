@@ -3,7 +3,7 @@
 ## Overview
 A scalable hybrid automation framework built using Python, Playwright, Pytest, and Requests for UI and API testing.
 
-## Tech Stack
+## Tech Stack- 
 - Python
 - Playwright
 - Pytest
@@ -17,8 +17,6 @@ A scalable hybrid automation framework built using Python, Playwright, Pytest, a
 - Reusable API Client
 - HTML Reporting
 - Pytest Fixtures
-
-## Project Structure
 
 # Project Structure
 
@@ -52,6 +50,11 @@ Hybrid-UI-API-Automation-Framework-Playwright/
 ├── conftest.py
 ├── README.md
 ├── requirements.txt
+```
+## Setup Instructions
+```bash
+pip install -r requirements.txt
+python -m playwright install
 ```
 
 ## How to Run Tests
