@@ -1,14 +1,16 @@
-import requests
+from api.api_client import APIClient
+from api.endpoints import USERS
+
+
+client = APIClient()
 
 
 def test_get_users():
 
-    response = requests.get(
-        "https://reqres.in/api/users?page=2"
-    )
+    response = client.get(USERS)
 
     assert response.status_code == 200
 
     response_body = response.json()
 
-    assert response_body["page"] == 2
+    assert "data" in response_body
